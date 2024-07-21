@@ -1,0 +1,21 @@
+[project]
+name = "friendship-optimizer"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Kuba Dakowski", email = "jakubdakowski@gmail.com"},
+]
+dependencies = [
+    "ipykernel>=6.29.5",
+    "pymoo>=0.6.1.1",
+    "numpy<2.0",
+    "pandas>=2.2.2",
+    "optuna>=3.6.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
